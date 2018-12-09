@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>横スライド</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
+    <style>
+        .carousel-inner img{
+            width: 100vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <div class="container">
+        <h2>Carousel Slide Show</h2>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ul>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="main_map.png" alt="main_map" width="1000" height="500">
+                </div>     
+                <div class="carousel-item">
+                    <img src="1024.317.jpg"  alt="1024.317" width="1000" height="500">
+                </div>     
+            
+                <div class="carousel-item">
+                <img src="german_park.jpg" alt="germanpark" width="1000" height="500">
+                </div>     
+            </div>
+        </div>
+            <a class="carousel-control-prev" href="#mycarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </a>
+    
+            <a class="carousel-control-next" href="#mycarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span></a>
+        </div>
+    
+    
+</body>
+</html>
